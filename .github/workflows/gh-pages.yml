@@ -1,0 +1,45 @@
+name: github pages
+
+on:
+  push:
+    branchs:
+      - main # Set branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 #change if you need git info
+
+      - name: Setup Zig
+        uses: goto-bus-stop/setup-zig@v2
+        with:
+          version: 0.12.0-dev.2701+d18f52197
+
+      - name: Restore Cache
+        uses: actions/cache/restore@v3
+        with:
+          path: |
+            ~/.cache/zig
+            zig-cache
+          key: zine-${{hashFiles('build.zig.zon')}}
+
+      - name: Build
+        run: zig build --summary all
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./zig-out
+
+      - name: Save Cache
+        uses: actions/cache/save@v3
+        with:
+          path: |
+            ~/.cache/zig
+            zig-cache
+          key: zine-${{hashFiles('build.zig.zon')}}

@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Angel's Personal Website</title>
+		<link>https://deaf.audio/</link>
+		<description>Recent content on Ttecho's Personal Website</description>
+		<generator>Zine -- https://github.com/kristoff-it/zine</generator>
+		<language>en-us</language>
+		<lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+		<atom:link href="https://deaf.audio/index.xml" rel="self" type="application/rss+xml"/>
+		<item inline-loop="$site.pages()">
+			<title var="$loop.it.title"></title>
+			<link var="$site.base_url.suffix($loop.it.permalink())"></link>
+			<pubDate var="$loop.it.date.formatHTTP()"></pubDate>
+			<guid var="$site.base_url.suffix($loop.it.permalink())"></guid>
+		</item>
+	</channel>
+</rss>
