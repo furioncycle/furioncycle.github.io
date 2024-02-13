@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Angel's Personal Website</title>
+		<link>https://deaf.audio/</link>
+		<description>Recent content on Ttecho's Personal Website</description>
+		<generator>Zine -- https://github.com/kristoff-it/zine</generator>
+		<language>en-us</language>
+		<lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+		<atom:link href="https://deaf.audio/index.xml" rel="self" type="application/rss+xml"/>
+		<item >
+			<title >Web Dev is Now Exciting (to me)</title>
+			<link >deaf.audio/blog/first-tested-blog/</link>
+			<pubDate >Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+			<guid >deaf.audio/blog/first-tested-blog/</guid>
+		</item><item >
+			<title >Work - CV</title>
+			<link >deaf.audio//work/</link>
+			<pubDate >Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+			<guid >deaf.audio//work/</guid>
+		</item><item >
+			<title >Projects</title>
+			<link >deaf.audio//projects/</link>
+			<pubDate >Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+			<guid >deaf.audio//projects/</guid>
+		</item><item >
+			<title >Archive</title>
+			<link >deaf.audio//archive/</link>
+			<pubDate >Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+			<guid >deaf.audio//archive/</guid>
+		</item>
+	</channel>
+</rss>
