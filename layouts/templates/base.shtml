@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head id="head">
+    <title id="title">&#127911; Sync'd Gaze</title>
+    <link rel="stylesheet" href="https://unpkg.com/missing.css@1.1.1" >
+    <link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">        
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+    >
+    <!-- <meta name="description" content="$page.custom.get('description','Ttecho\'s Blog')"> -->
+		<meta property="og:title" content="$page.title">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="https://deaf.audio/logo.png">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body style="background-color: black;" id="bod">
+    <header id="nav-h" class="navbar f-column" style="background-color: black; border-bottom: 1px solid lightgray;">
+      <a href="/" style="margin-left: 0; color: whitesmoke" class="typewriter">~/sync'd gaze</a>
+      <nav id="nav" class="navigation" aria-label="Site sections" style="margin-left: auto;">
+        <ul role="list" preload="mouseover">
+          <li><a href="/blog/" style="color:deepskyblue;">blog</a></li>
+          <li><a href="/about/" style="color: deepskyblue;">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <super>
+    </main>
+
+    <footer id="footer" style="background-color: black;">
+      <div style="display:flex; justify-content:space-between">
+        <div style="display:flex">
+          <a href="https://twitter.com/ttecho2021" class="socials"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/furioncycle" class="socials"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/furioncycle" class="socials"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/angel-marquez-67863952" class="socials"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <small style="color: whitesmoke">
+          &#169; Copyright 2024, Angel.
+          <a class="link" title="RSS Feed" href="https://deaf.audio/rss">RSS Feed</a> 
+          .
+        </small>      
+      </div>
+    </footer>    
+  </body>
+</html>

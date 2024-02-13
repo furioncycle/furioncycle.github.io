@@ -1,0 +1,10 @@
+<extend template="base.shtml">
+
+<main id="content">
+  <div class="bg">
+    <img alt="image of space" height="500" src="$site.asset('images/space.jpg').link()" width="1000">
+    <div class="caption">
+      <span class="border">Sorry contact to fix this.</span>
+    </div>
+  </div>
+</main>

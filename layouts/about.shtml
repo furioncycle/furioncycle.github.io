@@ -1,0 +1,56 @@
+<extend template="base.shtml">
+
+<main id="content">
+<div class="intro" >
+  <div class="about">
+    <div class="f-row">
+    <div>
+      <img id="portrait" class="float:left" alt="image of the author" height="250" src="$site.asset('images/author.jpg').link()" width="250">
+    </div>
+    <div class="f-col justify-content:space-between align-items:start">     
+    <p class="center"> Software Engineer by trade with interests in Audio, Embedded, 
+       Formal Methods, and Deterministic Simulation Testing.
+    </p>
+    <form method="post" action="/nothing/">
+       <button class="hbtn" type="submit" style="display: inline-text">Click for resume</button>
+    </form>
+    </div>
+    </div>
+  </div>
+  <div class="cards">
+    <h2> Projects </h2>
+    <div class="card">
+      <h2> Furioncycle.github.io </h2>
+      <p> Personal website discussing music and technology. </p>
+      <div class="links">
+        <div class="project-links">
+          <a href="https://github.com/ziglang/zig" class="zig"><i class="zig"></i></a>
+          <a href="https://github.com/kristoff-it/zine" class="socials"><i class="fab fa-github"></i></a>
+          <a href="https://furioncycle.github.io" class="socials"><i class="far fa-github"></i></a>
+        </div>
+      </div> 
+    </div>
+    <div class="card">
+      <h2> Nix homelab</h2>
+        <p> My NixOS configuration for my devices.</p>
+      <div class="links">
+        <div class="project-links">
+        <a href="https://nixos.org" class="nix"><i class="nix"></i></a>
+         <a href="https://github.com/furioncycle/flaked" class="socials"><i class="fab fa-github"></i></a>
+         <a href="https://github.com/furioncycle/hogar" class="socials"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>  
+    <div class="card">
+      <h2> Dalek</h2>
+      <p> Deterministic Audio Engine</p>
+      <div class="links">
+        <div class="project-links">
+          <a href="https://github.com/ziglang/zig" class="zig"><i class="zig"></i></a>
+          <a href="https://furioncycle.github.io/dalek" class="socials"><i class="far fa-github"></i></a>       
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+</main>

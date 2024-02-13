@@ -1,0 +1,274 @@
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: 
+        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Bold-102.woff"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-Bold-102a.woff2"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-BoldItalic-102a.woff2"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Italic-102.woff"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-Italic-102a.woff2"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Regular-102.woff"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-Regular-102a.woff2");
+}
+
+@font-face {
+    font-family: "Martian Mono";
+    src: 
+        url("fonts/martianmono/MartianMono-StdRg.ttf"),
+        url("fonts/martianmono/MartianMono-StdBd.ttf"),
+}
+
+@font-face {
+    font-family: "Atikinson Hyerlegible Mono";
+    src: url("fonts/AtkinsonHyperlegible/AtkinsonMonolegible.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: "Atkinson Hyperlegible";
+}
+
+code {
+    font-family: "Atkinson Hyperlegible Mono";
+}
+
+.typewriter {
+    overflow: hidden; 
+    border-right: .15em solid; /* cursor */
+    border-radius: 2px;
+    white-space: nowrap; /* single line content */
+    margin: 0 auto; /* scrolling effect */
+    letter-spacing: .1em;
+    animation:
+        typing 1s steps(22),
+        blink-caret .25s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to { width: 10% }
+}
+
+@keyframes blink-caret {
+   from, to {border-color: transparent;} 
+    50% {border-color:deepskyblue }
+}
+
+#portrait {
+    height: auto;
+    max-width: 200px;
+    min-width: 150px;
+    border-radius: 100%;
+}
+
+.bottom-1 {
+    margin-bottom: 1em;
+}
+
+.columns {
+    display: flex;
+    margin-right: -.4rem;
+    margin-left: -.4rem;
+    flex-wrap: wrap;
+}
+
+.column {
+    max-width: 100%;
+    padding-right: .4rem;
+    padding-left: .4rem;
+}
+
+.flex-measure-60 {
+    flex: 0 0 60em;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-right: .5em;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: left;
+    border: .1rem solid whitesmoke;
+}
+
+.bg-light-gray {
+    background-color: whitesmoke;
+}
+
+.white {
+    color: whitesmoke;
+}
+
+.b--white {
+    border-color: whitesmoke;
+}
+
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.measure-12 {
+    width: 12em;
+    max-width: 12em;
+}
+
+.measure-6 {
+    width: 6em;
+    max-width: 6em;
+}
+
+.btn.btn-sm {
+    font-size: .8rem;
+    height: 1.4rem;
+    padding: .15rem .3rem;
+}
+
+.bg-dark-green {
+    background-color: #137752;
+}
+
+.white {
+    color: #fff;
+}
+
+.btn {
+    line-height:  1.2rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.socials i {
+  font-size: 20px;
+  padding: 4px;
+  color: whitesmoke;
+  transition: transform 0.5s;
+}
+
+.hbtn {
+  background-color: black;
+  transition: transform 0.5s;
+}
+
+.socials:hover i {
+  transform: scale(0.9);
+}
+
+.socials:hover .fa-facebook {
+  color: #3b5998;
+}
+
+.socials:hover .fa-twitter {
+  color: #00acee;
+}
+
+.socials:hover .fa-github {
+  color: #11e3ff;
+}
+
+.socials:hover .fa-instagram {
+  color: #f14843;
+}
+
+.socials:hover .fa-linkedin-in {
+  color: #3b5998;
+}
+
+.socials:hover .fa-solid  {
+    color: #695762;
+}
+
+.hbtn:hover {
+    background-color: #00acee;
+    color: black;
+    transform: scale(0.9);
+}
+section {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 1.2rem;
+    border-style: solid;
+    border-color: #151414;
+    
+}
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.0rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #695762;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding-left: 1.0rem;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zig {
+    background-image: url("zig.png");
+    background-size: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nix {
+    background-image: url("nixos-logo-only-hires.png");
+    background-size: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg {
+    height: 100%;
+    position: relative;
+    opacity: 0.45;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}

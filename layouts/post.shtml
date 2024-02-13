@@ -1,0 +1,51 @@
+<extend template="base.shtml">
+
+<main id="content">
+  <style>
+    .note {
+			border-top: 1px solid deepskyblue;
+			border-bottom: 1px solid deepskyblue;
+			padding: 2px 2px;
+			text-align: center;
+		}
+    .post-byline {
+      font-size: 0.83255rem;
+      line-height: 1.75rem;
+      display: block;
+      margin-bottom: 1.75rem;
+      margin-top: 0;
+    }
+
+    h1 {
+     font-weight: 900;
+     font-size: 2.5rem;
+     line-height: 1.1; 
+     text-rendering: optimizeLegibility;
+     margin-bottom: 0;
+    }
+  </style>
+  <div class="note">
+    <h1 :text="$page.title"></h1>
+    <p class="post-byline">
+	  	<span :text="$page.date.format('January 02, 2006')"></span> -
+	  	<span :text="$page.wordCount().div(220).plus(1)"></span> min read - by 
+	  	<b :text="$page.author"></b>
+	  </p>
+  </div>
+
+  <div :html="$page.content()"></div>
+
+  <div id="prev-next">
+		<span :if="$page.prevPage()">
+	    <a href="$if.permalink()">&#8592; <span :text="$if.title"></span></a>
+		</span>
+    <span :if="$page.hasPrev().and($page.hasNext())"> - </span>
+		<span :if="$page.nextPage()">
+	    <a href="$if.permalink()"><span :text="$if.title"></span> &#8594;</a>
+		</span>
+    <small :if="$page.hasPrev().or($page.hasNext())"> or </small>
+    <small>
+      <a href="/">Back to the Homepage</a>
+    </small>
+  </div>
+</main>
