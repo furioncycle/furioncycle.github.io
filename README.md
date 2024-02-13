@@ -10,6 +10,7 @@ development besides basic knowledge and what I hear from various media platforms
 Run the following command and open your browser to the address being served. 
 
 ```zig
+ nix develop
  zig build serve
 ```
 
@@ -24,9 +25,11 @@ Run the following command and open your browser to the address being served.
 - [X] Basic templating
 - [X] Markdown parsing
 - [ ] Typst parsing
-- [x] Hosted Github pages
+- [X] Hosted Github pages
 - [ ] Get deaf.audio domain
+- [ ] Host it somewhere outside of github
 - [ ] SSR
+- [ ] HTMX for the win
 
 ## Research 
 
