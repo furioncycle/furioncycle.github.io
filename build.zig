@@ -12,9 +12,7 @@ pub fn build(b: *std.Build) !void {
         .layouts_dir_path = "layouts",
         .content_dir_path = "content",
         .static_dir_path = "static",
-        .site = .{
-            .base_url = "deaf.audio",
-            .title = "Sync'd Gaze",
-        },
+        .title = "Sync'd Gaze",
+        .host_url = "https://deaf.audio",
     });
 }

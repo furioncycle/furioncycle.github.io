@@ -1,11 +1,11 @@
 ---
 {
-  "title": "Web Dev is Now Exciting (to me)",
-  "description": "We don't need to use javascript/react",
-  "author": "Angel (Ttecho)",
-  "layout": "post.html",
-  "date": "2024-02-11T13:55:00",
-  "draft": false
+  .title= "Web Dev is Now Exciting (to me)",
+  .description= "We don't need to use javascript/react",
+  .author= "Angel (Ttecho)",
+  .layout= "post.html",
+  .date= "2024-02-11T13:55:00",
+  .draft= false
 }
 ---
 
