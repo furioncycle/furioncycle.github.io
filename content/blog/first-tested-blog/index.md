@@ -1,21 +1,21 @@
 ---
-{
   .title= "Web Dev is Now Exciting (to me)",
   .description= "We don't need to use javascript/react",
   .author= "Angel (Ttecho)",
   .layout= "post.html",
   .date= @date("2024-02-11T13:55:00"),
   .draft= false,
-}
 ---
 
-Welcome you most likely are reading my first blog post that I have been using many times over, getting this site up and to a usable state. 
+### Welcome to sync'd gaze!  
+
+You're most likely reading my first blog post that I written and debugged many times over, getting this site up and to a usable state. 
+
+![break](break.gif)
 
 This is site was my idea of making myself more presentable to people outside of my normal circle and to test out technology that I haven't used.
 
 I looked into javascript, react, and the normal things you would use to build a website.
-
-![break](break.gif)
 
 Others might enjoy those technologies but they do not spark joy for me. 
 
