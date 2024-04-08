@@ -7,7 +7,7 @@
 		<language>en-us</language>
 		<lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://deaf.audio/index.xml" rel="self" type="application/rss+xml"/>
-		<item inline-loop="$site.pages()">
+		<item inline-loop="$page.subpages()">
 			<title var="$loop.it.title"></title>
 			<link var="$site.base_url.suffix($loop.it.permalink())"></link>
 			<pubDate var="$loop.it.date.formatHTTP()"></pubDate>
