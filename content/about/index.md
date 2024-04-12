@@ -7,10 +7,39 @@
 .draft = false,
 ---
 
-### Work Experience
+Angel Marquez
+=============
 
-### Project Experience
+---
+<angelmarquez.dev@gmail.com> | @ttecho2021
 
-### Open Source 
+Work Experience
+---------------
 
-### Hobbies & Interests
+TODO - add all work stuff
+
+Project Experience
+------------------
+
+TODO - add projects
+
+- proptest-ada
+- website
+- dafny compiler
+- daw
+- embedded audio project
+- nixos network
+
+Open Source
+-----------
+
+TODO - add eelco
+
+Education
+---------
+
+Hobbies & Interests
+-------------------
+
+- zero day : A/V group
+- ttecho : dj/producer
