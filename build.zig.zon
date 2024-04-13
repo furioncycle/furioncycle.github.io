@@ -1,11 +1,11 @@
 .{
     .name = "shared-noise",
     .version = "0.0.1",
-    .paths = .{ "", "", "." },
+    .minimum_zig_version = "0.13.0",
     .dependencies = .{
         .zine = .{
-            .url = "git+https://github.com/kristoff-it/zine#e33a1d79b09e8532db60347a7ec4bd3413888977",
-            .hash = "12209f9be74fcc805c0f086e4a81ccca041354448f5b3592e04b6a6d1b4a95da5a26",
+            .url = "git+https://github.com/kristoff-it/zine#deefbe33db94c65c05e45a400b559a13139833f6",
+            .hash = "1220e50670f79028f8115b981a9e1497b51c31d7f20755871ee13fed96565cf66ef2",
         },
     },
     .paths = .{"."},
