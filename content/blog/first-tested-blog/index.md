@@ -4,7 +4,7 @@
   .author= "Angel (Ttecho)",
   .layout= "post.html",
   .date= @date("2024-02-11T13:55:00"),
-  .draft= false,
+  .draft= true,
 ---
 
 ### Welcome to sync'd gaze!  
