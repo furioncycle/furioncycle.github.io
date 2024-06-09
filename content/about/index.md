@@ -7,8 +7,17 @@
 .draft = false,
 ---
 
+About
+-----
+---
+
+Software Engineer with interests in Audio, Embedded, Formal Verification/Methods, Simulation Testing.
+
+[Available to discuss work and OSS](ttecho2021@gmail.com)
+
 Work Experience - NAWCWD
----------------
+------------------------
+---
 
 **JEDI Division** - *Supervisor*
 - Recruited new hires for Department that handles over 50 projects
@@ -32,42 +41,40 @@ Work Experience - NAWCWD
 
 Project Experience
 ------------------
+--- 
+[Sync'd Gaze](https://github.com/furioncycle/furioncycle.github.io) - Personal Website
+- Implemented in [Zine](https://github.com/kristoff-it/zine) and hosted on Github
 
-[Personal Website](https://github.com/furioncycle/furioncycle.github.io)
-- Implemented in Zine and hosted on Github
-
-Various Nixos homelab configurations
+Nixos homelab configurations
  - [Hogar](https://github.com/furioncycle/hogar) Home manager configuration for a couple of my computers
  - Current [NixOS configuration](https://github.com/furioncycle/flaked) 
- - [Old](https://github.com/furioncycle/nixos-config) Hyprland configuration 
+ - [Old configuration](https://github.com/furioncycle/nixos-config) Hyprland configuration 
 
-[Eno](https://github.com/furioncycle/eno) cli application
+[Eno](https://github.com/furioncycle/eno) - Cli Application
 - An oblique strategies application made in Go using Charm's `bubbletea` framework
 
-[Dalek](https://github.com/furioncycle/dalek/) audio engine
-*website* - https://furioncycle.github.io/dalek
-- From scratch deterministic audio engine made in zig
-- Documention website with zine.
+[Dalek](https://github.com/furioncycle/dalek/) Audio Engine  
+- [website](https://furioncycle.github.io/dalek) for documentation/design
+- From scratch deterministic audio engine made in zig  
 
-[nowav](https://github.com/furioncycle/nowav) audio decoder
+[nowav](https://github.com/furioncycle/nowav) audio decoder  
 - An audio decoder made in zig
 
 Education
 ---------
+---
 
-**Cal State University, Long Beach**
-*Bachelor of Science in Computer Engineering*
+**Cal State University, Long Beach** - *Bachelor of Science in Computer Engineering*
 
-**Cal State University, Chico State**
-*Bachelor of Arts in Music Industry and Technology*
+**Cal State University, Chico State**  - *Bachelor of Arts in Music Industry & Technology*
 
 Hobbies & Interests
 -------------------
-
-`Visualist` and  `Audio Mangler` in **Human Filth/Zero Day**  
+---
+`Visualist` and  `Audio Mangler` in **Zero Day**  
 Dj/Producer in **Ttecho**  
-NixOS
+NixOS  
 Zig  
-Deterministic Simulation Testing
+Deterministic Simulation Testing  
 Skating  
 Fixed Gear riding 
