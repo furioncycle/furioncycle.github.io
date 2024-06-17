@@ -48,7 +48,7 @@ code {
 
 @keyframes typing {
     from {width: 0}
-    to { width: 20% }
+    to { width: 10% }
 }
 
 @keyframes blink-caret {
@@ -144,3 +144,35 @@ code {
     display: inline-block;
     text-align: center;
 }
+
+.socials i {
+  font-size: 20px;
+  padding: 4px;
+  color: whitesmoke;
+  transition: transform 0.5s;
+}
+
+.socials:hover i {
+  transform: scale(0.9);
+}
+
+.socials:hover .fa-facebook {
+  color: #3b5998;
+}
+
+.socials:hover .fa-twitter {
+  color: #00acee;
+}
+
+.socials:hover .fa-github {
+  color: #11e3ff;
+}
+
+.socials:hover .fa-instagram {
+  color: #f14843;
+}
+
+.socials:hover .fa-linkedin-in {
+  color: #3b5998;
+}
+
