@@ -1,5 +1,5 @@
 ---
-.title = "ttecho's resume",
+.title = "About Me",
 .author ="Angel (ttecho)",
 .description = "online resume of projects and work",
 .layout = "about.html",
@@ -7,22 +7,18 @@
 .draft = false,
 ---
 
-About
------
----
-
-Software Engineer with interests in Audio, Embedded, Formal Verification/Methods, Simulation Testing.
-
-[Available to discuss work and OSS](ttecho2021@gmail.com)
-
-Work Experience - NAWCWD
-------------------------
+Management
+----------
 ---
 
 **JEDI Division** - *Supervisor*
 - Recruited new hires for Department that handles over 50 projects
 - Implemented new processes for the (ESDP) new hire program to help with retention
 - Managed over 55 employees that include facilitating and overseing processes for JEDI
+
+Software
+--------
+---
 
 **APR-39 Radar Warning Reciever** - *OFP Software Developer*
 - Implemented MIL-1553 standard messages for integration with mission critical systems
@@ -51,11 +47,11 @@ Nixos homelab configurations
  - [Old configuration](https://github.com/furioncycle/nixos-config) Hyprland configuration 
 
 [Eno](https://github.com/furioncycle/eno) - Cli Application
-- An oblique strategies application made in Go using Charm's `bubbletea` framework
+- An oblique strategies application made in Go using Charm's [bubbletea](https://github.com/charmbracelet/bubbletea) framework
 
 [Dalek](https://github.com/furioncycle/dalek/) Audio Engine  
-- [website](https://furioncycle.github.io/dalek) for documentation/design
 - From scratch deterministic audio engine made in zig  
+- [website](https://furioncycle.github.io/dalek) for documentation/design
 
 [nowav](https://github.com/furioncycle/nowav) audio decoder  
 - An audio decoder made in zig
@@ -73,6 +69,7 @@ Hobbies & Interests
 ---
 `Visualist` and  `Audio Mangler` in **Zero Day**  
 Dj/Producer in **Ttecho**  
+Audio Programming  
 NixOS  
 Zig  
 Deterministic Simulation Testing  
