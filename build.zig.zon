@@ -4,8 +4,8 @@
     .minimum_zig_version = "0.13.0",
     .dependencies = .{
         .zine = .{
-            .url = "git+https://github.com/kristoff-it/zine#deefbe33db94c65c05e45a400b559a13139833f6",
-            .hash = "1220e50670f79028f8115b981a9e1497b51c31d7f20755871ee13fed96565cf66ef2",
+            .url = "git+https://github.com/kristoff-it/zine?ref=v0.2.0#e21b179b78de54ab48efe38d2378e87a56cb3542",
+            .hash = "1220781f118454bbc87d7efbd244b4d1ef029e76a6113ddf4752a6f3cd85879dbb3b",
         },
     },
     .paths = .{"."},
