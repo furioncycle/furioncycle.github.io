@@ -176,3 +176,42 @@ code {
   color: #3b5998;
 }
 
+.socials:hover .fa-solid .fa-share-nodes {
+    color: #695762
+}
+
+
+section {
+    display: flex;
+    /* padding: 3em; */
+
+}
+
+.message {
+    background-color: #090808;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text {
+    /* padding: 1rem; */
+}
+.text h1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 1.0rem;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #695762;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding-left: 1.0rem;
+}
