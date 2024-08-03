@@ -176,7 +176,7 @@ code {
   color: #3b5998;
 }
 
-.socials:hover .fa-solid .fa-share-nodes {
+.socials:hover .fa-solid  {
     color: #695762
 }
 
@@ -184,29 +184,43 @@ code {
 section {
     display: flex;
     /* padding: 3em; */
-
+   /* justify-content: space-between; */
 }
 
-.message {
-    background-color: #090808;
+.intro {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: white;
 }
 
-.text {
-    /* padding: 1rem; */
+.about {
+    background-color: yellow;
 }
-.text h1 {
-    font-size: 1rem;
+.cards {
+    background-color: blue; 
+    /* #090808; */
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+.card {
+    background-color: green;
+    padding: 1.2rem;
+    /* justify-content: space-between; */
+    border-style: solid;
+}
+h2 {
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
-.text p {
+p {
     font-size: 1.0rem;
 }
 
-.time {
+.links {
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -214,4 +228,5 @@ section {
     font-size: 0.5rem;
     font-weight: bold;
     padding-left: 1.0rem;
+    background-color: red
 }
