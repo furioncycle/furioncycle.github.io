@@ -191,25 +191,26 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .about {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .cards {
-    background-color: blue; 
+    /* background-color: blue; */ 
     /* #090808; */
     display: flex;
     flex-direction: column;
-    padding: 1.2rem;
+    /* padding: 1.2rem; */
+
+    justify-content: space-evenly;
 }
 
 .card {
-    background-color: green;
     padding: 1.2rem;
-    /* justify-content: space-between; */
     border-style: solid;
+    border-color: #151414;
 }
 h2 {
     font-size: 1.2rem;
@@ -228,5 +229,25 @@ p {
     font-size: 0.5rem;
     font-weight: bold;
     padding-left: 1.0rem;
-    background-color: red
+    /* border-style: dotted; */
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zig {
+    background-image: url("zig.png");
+    background-size: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nix {
+    background-image: url("nixos-logo-only-hires.png");
+    background-size: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
