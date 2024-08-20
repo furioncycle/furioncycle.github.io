@@ -177,33 +177,22 @@ code {
 }
 
 .socials:hover .fa-solid  {
-    color: #695762
+    color: #695762;
 }
-
 
 section {
     display: flex;
-    /* padding: 3em; */
-   /* justify-content: space-between; */
 }
 
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background-color: white; */
 }
 
-.about {
-    /* background-color: yellow; */
-}
 .cards {
-    /* background-color: blue; */ 
-    /* #090808; */
     display: flex;
     flex-direction: column;
-    /* padding: 1.2rem; */
-
     justify-content: space-evenly;
 }
 
@@ -211,6 +200,7 @@ section {
     padding: 1.2rem;
     border-style: solid;
     border-color: #151414;
+    
 }
 h2 {
     font-size: 1.2rem;
@@ -229,7 +219,6 @@ p {
     font-size: 0.5rem;
     font-weight: bold;
     padding-left: 1.0rem;
-    /* border-style: dotted; */
 }
 
 .project-links {
@@ -244,6 +233,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .nix {
     background-image: url("nixos-logo-only-hires.png");
     background-size: 22px;
