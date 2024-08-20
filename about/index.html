@@ -6,10 +6,10 @@
     <link type="text/css" rel="stylesheet" href="/style.css">        
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
     >
     <meta name="description" content="Ttecho's Blog">
-		<meta property="og:title" content="ttecho's resume">
+		<meta property="og:title" content="About Me">
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="https://deaf.audio/logo.png">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -29,8 +29,50 @@
     <main id="content">
       
 <!-- Subtitle --> 
-<div id="intro">
-  <div ><h2>About</h2><hr><p>Software Engineer with interests in Audio, Embedded, Formal Verification/Methods, Simulation Testing.</p><p><a href="ttecho2021@gmail.com">Available to discuss work and OSS</a></p><h2>Work Experience - NAWCWD</h2><hr><p><strong>JEDI Division</strong> - <i>Supervisor</i></p><ul><li><p>Recruited new hires for Department that handles over 50 projects</p></li><li><p>Implemented new processes for the (ESDP) new hire program to help with retention</p></li><li><p>Managed over 55 employees that include facilitating and overseing processes for JEDI</p></li></ul><p><strong>APR-39 Radar Warning Reciever</strong> - <i>OFP Software Developer</i></p><ul><li><p>Implemented MIL-1553 standard messages for integration with mission critical systems</p></li><li><p>Characterized & debugged RF anomalies in Operational Flight Program (OFP) using Matlab.</p></li><li><p>Developed display menus for systems on aircraft to interact with the system</p></li><li><p>Developed an in-memory mission data file persistence for VxWorks.</p></li></ul><p><strong>APR-39 Radar Warning Reciever</strong> - <i>CI/CD Maintainer/Developer</i></p><ul><li><p>Developed a Go cli application that generates Software Formal Qualification Test Report (SFQT) from gitlab issues that based on a future release.</p></li><li><p>Implemented & maintained the teams CI pipeline on an offline Gitlab server.</p></li><li><p>Ported a visual C++ 6 custom OFP packager for APR-39's OFP to Python to integrate easier into our CI process</p></li></ul><p><strong>Gorgon Automated Simulation Testbed</strong> - <i>Software Developer</i></p><ul><li><p>Fixed problems in the API layer for the test scripting environment.</p></li><li><p>Developed a Mission Computer simulator in C# to interact with the in-house script environment.</p></li></ul><h2>Project Experience</h2><hr><p><a href="https://github.com/furioncycle/furioncycle.github.io">Sync'd Gaze</a> - Personal Website</p><ul><li><p>Implemented in <a href="https://github.com/kristoff-it/zine">Zine</a> and hosted on Github</p></li></ul><p>Nixos homelab configurations</p><ul><li><p><a href="https://github.com/furioncycle/hogar">Hogar</a> Home manager configuration for a couple of my computers</p></li><li><p>Current <a href="https://github.com/furioncycle/flaked">NixOS configuration</a></p></li><li><p><a href="https://github.com/furioncycle/nixos-config">Old configuration</a> Hyprland configuration</p></li></ul><p><a href="https://github.com/furioncycle/eno">Eno</a> - Cli Application</p><ul><li><p>An oblique strategies application made in Go using Charm's <code>bubbletea</code> framework</p></li></ul><p><a href="https://github.com/furioncycle/dalek/">Dalek</a> Audio Engine</p><ul><li><p><a href="https://furioncycle.github.io/dalek">website</a> for documentation/design</p></li><li><p>From scratch deterministic audio engine made in zig</p></li></ul><p><a href="https://github.com/furioncycle/nowav">nowav</a> audio decoder</p><ul><li><p>An audio decoder made in zig</p></li></ul><h2>Education</h2><hr><p><strong>Cal State University, Long Beach</strong> - <i>Bachelor of Science in Computer Engineering</i></p><p><strong>Cal State University, Chico State</strong>  - <i>Bachelor of Arts in Music Industry & Technology</i></p><h2>Hobbies & Interests</h2><hr><p><code>Visualist</code> and  <code>Audio Mangler</code> in <strong>Zero Day</strong><br><br>Dj/Producer in <strong>Ttecho</strong><br><br>NixOS<br><br>Zig<br><br>Deterministic Simulation Testing<br><br>Skating<br><br>Fixed Gear riding</p></div>
+<div class="intro" >
+  <div class="about">
+    <div>
+      <img id="portrait" class="float:left" alt="image of the author" height="250" src="/images/author.jpg" width="250">
+    </div>     
+    <p class="center"> Software Engineer by trade with interests in Audio, Embedded, 
+       Formal Methods, and Deterministic Simulation Testing.
+     </p>
+  </div>
+  <div class="cards">
+    <h2> Projects </h2>
+    <div class="card">
+      <h2> Furioncycle.github.io </h2>
+      <p> Personal website discussing music and technology. </p>
+      <div class="links">
+        <div class="project-links">
+          <a href="https://github.com/ziglang/zig" class="zig"><i class="zig"></i></a>
+          <a href="https://github.com/kristoff-it/zine" class="socials"><i class="fab fa-github"></i></a>
+          <a href="https://furioncycle.github.io/dalek" class="socials"><i class="far fa-github"></i></a>
+        </div>
+      </div> 
+    </div>
+    <div class="card">
+      <h2> Nix homelab</h2>
+        <p> My NixOS configuration for my devices.</p>
+      <div class="links">
+        <div class="project-links">
+        <a href="https://nixos.org" class="nix"><i class="nix"></i></a>
+         <a href="https://github.com/furioncycle/flaked" class="socials"><i class="fab fa-github"></i></a>
+         <a href="https://github.com/furioncycle/hogar" class="socials"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>  
+    <div class="card">
+      <h2> Dalek</h2>
+      <p> Deterministic Audio Engine</p>
+      <div class="links">
+        <div class="project-links">
+          <a href="https://github.com/ziglang/zig" class="zig"><i class="zig"></i></a>
+         <a href="https://github.com/furioncycle/furioncycle.github.io/dalek" class="socials"><i class="far fa-github"></i></a>       
+        </div>
+      </div>
+    </div>  
+  </div>
 </div>
 
     </main>
