@@ -2,22 +2,20 @@
     font-family: "Atkinson Hyperlegible";
     src: 
         url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Bold-102.woff"),
-        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Bold-102.woff2"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-Bold-102a.woff2"),
         url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff"),
-        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff2"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-BoldItalic-102a.woff2"),
         url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Italic-102.woff"),
-        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Italic-102.woff2"),
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-Italic-102a.woff2"),
         url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Regular-102.woff"),
-        url("fonts/AtkinsonHyperlegible/web/WOFF/Atkinson-Hyperlegible-Regular-102.woff2");
+        url("fonts/AtkinsonHyperlegible/web/WOFF2/Atkinson-Hyperlegible-Regular-102a.woff2");
 }
 
 @font-face {
     font-family: "Martian Mono";
     src: 
         url("fonts/martianmono/MartianMono-StdRg.ttf"),
-        url("fonts/martianmono/MartianMono-StdTh.ttf"),
-        url("fonts/martianmono/MartianMono-StdxBd.ttf"),
-        url("fonts/martianmono/MartianMono-StdxLt.ttf");
+        url("fonts/martianmono/MartianMono-StdBd.ttf"),
 }
 
 @font-face {
