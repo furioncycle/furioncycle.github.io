@@ -150,6 +150,11 @@ code {
   transition: transform 0.5s;
 }
 
+.hbtn {
+  background-color: black;
+  transition: transform 0.5s;
+}
+
 .socials:hover i {
   transform: scale(0.9);
 }
@@ -178,6 +183,11 @@ code {
     color: #695762;
 }
 
+.hbtn:hover {
+    background-color: #00acee;
+    color: black;
+    transform: scale(0.9);
+}
 section {
     display: flex;
 }
