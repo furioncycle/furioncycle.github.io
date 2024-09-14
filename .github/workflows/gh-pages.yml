@@ -16,7 +16,7 @@ jobs:
       - name: Setup Zig
         uses: goto-bus-stop/setup-zig@v2
         with:
-          version: 0.14.0-dev.2+0884a4341
+          version: 0.13.0
 
       - name: Restore Cache
         uses: actions/cache/restore@v3
