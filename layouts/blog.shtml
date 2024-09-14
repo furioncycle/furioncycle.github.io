@@ -1,4 +1,4 @@
-<extend template="base.html">
+<extend template="base.shtml">
 
 <main id="content">
 
@@ -15,16 +15,16 @@
             <th class="measure-6">Link</th>
           </tr>
         </thead>      
-        <tbody loop="$page.subpages()">
+        <tbody :loop="$page.subpages()">
         <tr >
           <td>
             <span style="margin-bottom: 1rem;" var="$loop.it.date.format('January 02, 2006')"></span>
           </td>
           <td>
-            <a href="$loop.it.permalink()" var="$loop.it.title"></a>
+            <a href="$loop.it.link()" :text="$loop.it.title"></a>
           </td>
           <td>
-            <a class="btn btn-sm bg-dark-green white hover-white hover-bg-black measure-6" href="$loop.it.permalink()" title="read test"> Read &#8594;</a>    	
+            <a class="btn btn-sm bg-dark-green white hover-white hover-bg-black measure-6" href="$loop.it.link()" title="read test"> Read &#8594;</a>    	
           </td>  
         </tr>    
       </tbody>  

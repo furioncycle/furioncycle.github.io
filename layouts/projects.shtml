@@ -1,4 +1,4 @@
-<extend template="base.html" >
+<extend template="base.shtml" >
 
 <main id="content">
 <!-- Subtitle --> 
@@ -13,7 +13,7 @@
       </h2> 
     </div>
     <div>
-      <img id="portrait" class="float:left" alt="image of the author" height="250" src="/images/author.jpg" width="250">
+      <img id="portrait" class="float:left" alt="image of the author" height="250" src="$site.asset('images/author.jpg').link()" width="250">
     </div>
   </div>
   

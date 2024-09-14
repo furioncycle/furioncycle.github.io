@@ -2,9 +2,9 @@
   .title= "Foray into Web Dev",
   .description= "We don't need to use javascript/react",
   .author= "Angel (Ttecho)",
-  .layout= "post.html",
+  .layout= "post.shtml",
   .date= @date("2024-02-11T13:55:00"),
-  .draft= true,
+  .draft= false,
   .tags = [ "zig" , "rust"],
 ---
 

@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
     >
-    <meta name="description" content="$page.custom.get('description','Ttecho\'s Blog')">
+    <!-- <meta name="description" content="$page.custom.get('description','Ttecho\'s Blog')"> -->
 		<meta property="og:title" content="$page.title">
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="https://deaf.audio/logo.png">
