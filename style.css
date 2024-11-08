@@ -249,3 +249,26 @@ p {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.bg {
+    height: 100%;
+    position: relative;
+    opacity: 0.45;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
